@@ -1,0 +1,12 @@
+plugins {
+    id "io.gatling.gradle" version "3.4.2"
+}
+
+group 'demo.groovy'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+
+repositories {
+    mavenCentral()
+}
